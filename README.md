@@ -12,13 +12,9 @@
 ## 技术栈
 
 - 前端：Vue.js
-- UI：xiaomeng-vue-ui [项目地址](https://github.com/shaoyunlu/XiaoMVui)
+- UI：xiaomeng-ui [项目地址](https://github.com/shaoyunlu/xiaomeng-ui)
 - 后端：Springboot
 - 数据库：Mysql
-
-## 使用说明
-
-详细描述如何使用该系统，包括如何登录，如何进行各项操作等。
 
 ## 在线演示
 
