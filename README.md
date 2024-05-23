@@ -20,6 +20,9 @@
 
 访问在线演示：[演示地址](http://114.116.50.8:3000)
 
+## 启动前须知
+请将src\main\resources\application.properties.bak 文件的后缀.bak去掉。
+
 ## 联系方式
 
 - 作者：[邵云陆]
