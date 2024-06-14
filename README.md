@@ -11,7 +11,7 @@
 
 ## 技术栈
 
-- 前端：Vue.js
+- 前端：Vue3.js
 - UI：xiaomeng-ui [项目地址](https://github.com/shaoyunlu/xiaomeng-ui)
 - 后端：Springboot
 - 数据库：Mysql
@@ -23,8 +23,9 @@
 - 密码：admin123456
 - 为方便大家体验，请不要随意进行删除或者修改密码操作，谢谢。
 
-## 启动前须知
-请将src\main\resources\application.properties.bak 文件的后缀.bak去掉。
+## 本地运行
+-执行init.sql
+-请将src\main\resources\application.properties.bak 文件的后缀.bak去掉。
 
 ## 联系方式
 
