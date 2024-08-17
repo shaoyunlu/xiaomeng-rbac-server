@@ -24,8 +24,15 @@
 - 为方便大家体验，请不要随意进行删除或者修改密码操作，谢谢。
 
 ## 本地运行
+<<<<<<< HEAD
 -执行init.sql
 -配置数据库连接 src\main\resources\application.properties
+=======
+- 执行init.sql
+- 请将src\main\resources\application.properties.bak 文件的后缀.bak去掉。
+- 在src\main\resources\application.properties中配置数据库信息
+- 执行语句mvn spring-boot:run
+>>>>>>> 5f85135dcb5a44d1141b934219e9f57c5c91a815
 
 ## 联系方式
 
