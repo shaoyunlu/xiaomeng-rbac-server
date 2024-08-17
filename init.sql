@@ -65,11 +65,11 @@ INSERT INTO `c_user` (`user_name`, `user_real_name`,`user_password`) VALUES ('ad
 INSERT INTO `c_role` (`role_name`, `role_desc`) VALUES ('超级管理员', '拥有系统的全部权限。');
 INSERT INTO `c_role` (`role_name`, `role_desc`) VALUES ('普通用户', '系统中的普通用户。');
 INSERT INTO `r_user_role` (`ur_user_id`,`ur_role_id`) VALUES (1 ,1);
-INSERT INTO `c_menu` (`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES ('基础配置', 0, '', 1, 1, 'base');
-INSERT INTO `c_menu` (`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES ('用户管理', 1, '/frame/user', 101, 1, '');
-INSERT INTO `c_menu` (`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES ('角色管理', 1, '/frame/role', 102, 1, '');
-INSERT INTO `c_menu` (`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES ('菜单管理', 1, '/frame/menu', 103, 1, '');
-INSERT INTO `c_menu` (`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES ('权限管理', 1, '/frame/permission', 104, 1, '');
+INSERT INTO `c_menu` (`menu_id`,`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES (1,'基础配置', 0, '', 1, 1, 'base');
+INSERT INTO `c_menu` (`menu_id`,`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES (2,'用户管理', 1, '/frame/user', 101, 1, '');
+INSERT INTO `c_menu` (`menu_id`,`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES (3,'角色管理', 1, '/frame/role', 102, 1, '');
+INSERT INTO `c_menu` (`menu_id`,`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES (4,'菜单管理', 1, '/frame/menu', 103, 1, '');
+INSERT INTO `c_menu` (`menu_id`,`menu_name`, `menu_parent_id`, `menu_url`, `menu_order`, `menu_status`, `menu_icon`) VALUES (5,'权限管理', 1, '/frame/permission', 104, 1, '');
 INSERT INTO `c_permission` (`permission_menu_id`,`permission_name`,`permission_type`,`permission_expression`) VALUES (2 ,'界面访问',1,'/frame/user');
 INSERT INTO `c_permission` (`permission_menu_id`,`permission_name`,`permission_type`,`permission_expression`) VALUES (2 ,'添加用户',2,'/user/add');
 INSERT INTO `c_permission` (`permission_menu_id`,`permission_name`,`permission_type`,`permission_expression`) VALUES (2 ,'修改用户',2,'/user/update');
