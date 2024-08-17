@@ -25,7 +25,7 @@
 
 ## 本地运行
 -执行init.sql
--请将src\main\resources\application.properties.bak 文件的后缀.bak去掉。
+-配置数据库连接 src\main\resources\application.properties
 
 ## 联系方式
 
